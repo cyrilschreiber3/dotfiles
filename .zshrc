@@ -113,3 +113,6 @@ eval "$(pyenv init -)"
 # For phpenv
 export PATH="$HOME/.phpenv/bin:$PATH"
 eval "$(phpenv init -)"
+
+# For pipx
+export PATH="$PATH:$HOME/.local/bin"
